@@ -1,5 +1,7 @@
 # rn-setup-readme-template
 
+> [공식 문서](https://reactnative.dev/docs/environment-setup?os=macos&platform=android)
+
 ## 01. Environment‐Setup
 
 ### 공통
