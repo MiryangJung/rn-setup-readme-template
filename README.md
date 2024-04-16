@@ -1,14 +1,14 @@
 # rn-setup-readme-template
 
-# 01. Environment‐Setup
+## 01. Environment‐Setup
 
-## 공통
+### 공통
 - Node.js 설치
   - `brew install node`
 - watchman 설치
   - `brew install watchman`
 
-## Android
+### Android
 - OpenJDK 설치
   - `brew tap homebrew/cask-versions && brew install --cask zulu17`
 - JAVA_HOME 환경변수 설정
@@ -18,15 +18,15 @@ echo 'export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Ho
 source ~/.zshrc
 ```
 
-## iOS
+### iOS
 - CocoaPods 설치
   - `sudo gem install cocoapods`
  
 ---
 
-# 02. Simulator Setup
+## 02. Simulator Setup
 
-## Android
+### Android
 
 [안드로이드 스튜디오](https://developer.android.com/studio) 설치
 
@@ -39,7 +39,7 @@ source ~/.zshrc
 - emulator 생성
   - More Actions → Virtual Device Manager
   - Create Device를 눌러 새 애뮬레이터를 생성
-  - System Image : Tiramisu 33
+  - System Image : UpsideDownCake 34
   - Device: 원하는 디바이스 선택
     - Device 스토리지 용량을 2048mb 이상으로 설정
 - ANDROID_HOME 환경 변수 설정
@@ -58,7 +58,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 source ~/.zshrc
 ```
 
-## iOS
+### iOS
 
 [Xcode](https://developer.apple.com/xcode) 설치
 
