@@ -1,7 +1,5 @@
 # rn-setup-readme-template
 
----
-
 # 01. Environment‐Setup
 
 ## 공통
